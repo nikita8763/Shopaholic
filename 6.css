@@ -1,0 +1,81 @@
+body {
+    background-image: url(https://images.pexels.com/photos/5864245/pexels-photo-5864245.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1);
+    background-size: cover;
+    /* margin: 10px; */
+}
+
+/* FOR ENTIRE FORM */
+.container{
+    display:flex;
+    flex-wrap: wrap;
+    justify-content:center ;
+    align-items: center;
+    color: white;
+    margin-left: auto;
+}
+
+/* LOGIN NAME */
+h1{
+    color:rgb(52, 33, 33);
+    text-align: center;
+    background:  #C7B9B1 ;
+    border: 2px solid  #080808 ;
+    /* box-shadow: 4px 4px 5px #C7B9B1; */
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    align-items: center;
+}
+
+/* h2{
+    color: rgb(245, 245, 236);
+    font-weight: bold;
+    font-size: 200%; */
+    /* border-bottom: 2px solid pink ;
+    border-right: 2px solid pink;
+    border-top: 2px solid pink;
+    border-left: 2px solid pink; */
+    /* text-align: center;
+    box-shadow: 4px 4px 5px #888888;
+    width: 400px;
+    margin: 10px;
+} */
+
+/* FORM */
+h3{
+    color: rgb(15, 14, 14);
+    text-align:left ;
+    padding: 0px 20px;
+    border: 5px solid  #C7B9B1 ;
+    background: #C7B9B1 ;
+    /* box-shadow: 4px 4px 5px #888888; */
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    border-radius: 8%
+    /* align-items: center; */
+}
+
+/* CONNECTING THE NEXT PAGE */
+.Next_page{
+    color: rgb(12, 12, 12);
+    text-align:center ;
+    padding: 0px 0px;
+    border: 5px solid  #C7B9B1 ;
+    background: #C7B9B1 ;
+    justify-content: end;
+    /* box-shadow: 4px 4px 5px #888888; */;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    /* padding-top: 5px; */
+
+}
+
+
+/* img{
+    width: 200px;
+    height: 150px;
+    margin: 100px;
+    transition: all 1s;
+    border-radius: 100%;
+    align-items: center;
+}
+
+img:hover{
+    transform: scale(1.1);
+} */
